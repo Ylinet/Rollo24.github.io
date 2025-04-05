@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: rgb(133,8,12);
+    background: radial-gradient(circle, rgba(133,8,12,1) 44%, rgba(213,1,36,1) 70%, rgba(167,48,51,1) 97%);
+}
+
+.head{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.navbar{
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, 0.155);
+    color: transparent;
+    padding: 10px;  
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    
+}
+.navbar-li{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-conteiner{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: rgba(185, 185, 185, 0.16);
+    backdrop-filter: blur(20px);
+    border: solid 1px rgba(255, 255, 255, 0.194);
+    color: white;
+    margin-top: 50px;
+}
